@@ -1,0 +1,83 @@
+// Import Start Setting
+@import '_fonts';
+@import '_reset';
+@import '_ui';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	overflow-x: hidden;
+	font-size: 16px; 
+	color: $text;
+	background: $main-color;
+    font-family: 'Gilroy';
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+	a {
+		text-decoration: none;
+		color: $text;
+	}
+	li {
+		list-style: none;
+	}
+}
+
+// General Container
+._container {
+	max-width: 1520px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+// Preloader
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}
+
+.firts {
+	background: $primary-color;
+}
+
+.second {
+	left: 16.6%;
+	background: $primary-color;
+}
+
+.third {
+	left: 33.2%;
+	background: $primary-color;
+}
+
+.four {
+	left: 49.8%;
+	background: $primary-color;
+}
+
+.five {
+	left: 66.6%;
+	background: $primary-color;
+}
+
+.six {
+	left: 83.2%;
+	background: $primary-color;
+}
+
+// Import
+@import '_home';
+@import '_contact';
+@import '_about';
+@import '_news';
+@import '_post';

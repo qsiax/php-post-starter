@@ -1,0 +1,19 @@
+.contact {
+    background: $secondary-color;
+    min-height: 100vh;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__heading {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 78px;
+        text-align: center;
+        color: $main-color;
+        margin-top: 60px;
+    }
+}
+

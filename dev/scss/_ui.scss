@@ -1,0 +1,13 @@
+$main-color: #000000;
+$primary-color: #E7FF53;
+$secondary-color: #D4A8FF;
+$tertiary-color: #64748B;
+$text: #fff;
+$text-secondary: #AAAAAA;;
+$error: #ED0A34;
+$succes: #0284C7;
+$transition: all .5s ease;
+
+@mixin manrope {
+    font-family: 'Manrope', sans-serif;
+}
