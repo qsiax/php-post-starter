@@ -1,1 +1,1 @@
-PHP Post Starter by qsiax
+PHP Post Starter
